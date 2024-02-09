@@ -39,7 +39,7 @@ export async function getStaticProps({ params }) {
             props: {
                 user,
             },
-            revalidate: 5,
+            // revalidate: 5,
         };
     } catch (error) {
         console.error('Failed to fetch user data:', error);
